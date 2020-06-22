@@ -34,20 +34,19 @@ Thats all...
  -  When True, this commits the changes to the assigned system. 
  - Be careful! I've tried to catch double commits of the same data, but its not particually robust...
  - At the moment, if the parent record already has any i or h field in the holding 852, it doesn't do anything to the record. It will let you know.   
-do_change = True
+    do_change = True
 
  - When True, this screen prints the changes that will be made to each record so they can be checked. 
-verbose = False
+    verbose = False
 
  - When True, this changes the print style to nicely laid out XML indenting etc.  
-pprint = False
+    pprint = False
 
 
 ******
 
-Uncomment this section to use... 
-
-the script is hobbled by design without this being done.... 
+Uncomment the section to use...              
+[the script is hobbled by design without this being done]                            
 
 	# r = requests.put(url, headers=headers, data=my_xml)
 	# print ()
