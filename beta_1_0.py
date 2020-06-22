@@ -29,10 +29,10 @@ def update_holding(mms_id, holding_id, my_xml):
 	print (f"Updating Holding: {holding_id}\n{url}")
 	# r = requests.put(url, headers=headers, data=my_xml)
 	# print ()
-	# if r.status_code != 200:
-	# 	print (f"Udpate seemed to go OK for {url}")
+	# if r.status_code == 200:
+	# 	print (f"Update seemed to go OK for {url}")
 	# else:
-	# 	print (f"Somthing went wrong with update for {url}")
+	# 	print (f"Something went wrong with update for {url}")
 
 
 def get_holdings_and_process(mms, do_change, verbose):
